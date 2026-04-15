@@ -49,3 +49,6 @@ footer h2 {
 footer p {
     margin: 5px 0;
 }
+button {
+    transition: 0.3s;
+}
