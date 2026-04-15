@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+    <style>
+        header h1{
+            margin-bottom: 10px;
+        }
+        header p{
+            margin-bottom: 20px;
+        }
+        .pi{
+            background-color: rgb(222, 248, 222);
+        }
+        .pi div{
+            background-color: white;
+            width: 350px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .pi img{
+            width: 100px;
+            height: 100px;
+            background-color: lightgray;
+            border-radius: 100%;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+        .fd{
+            background-color: rgb(157, 245, 157);
+        }
+        .fd div{
+            background-color: white;
+            width: 350px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .lc{
+            background-color: rgb(213, 248, 213);
+        }
+        #lc{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        #lc div{
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        #lc h3{
+            margin-bottom: 10px;
+        }
+        #lc p{
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Profile</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="market.html">Market</a>
+            <a href="schemes.html">Schemes</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <section class="abt">
+        <div>
+            <p>Manage your personal information, farming details, 
+        and activity on AgroConnect.</p>
+        </div>
+    </section>
+
+    <!-- Personal Information -->
+    <section class="pi">
+        <h2>Personal Information</h2>
+        <div>
+            <p>Name: Ramesh Patel</p>
+            <p>Email: rameshpatel@gmail.com</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Address: Vadodara, Gujarat</p>
+            <p>Role: Registered Farmer</p>
+            <p>Member Since: January 2024</p>
+        </div>
+    </section>
+
+    <!-- Farm Details -->
+    <section class="fd">
+        <h2>Farm Details</h2>
+        <div>
+            <p>Primary Crop: Wheat</p>
+            <p>Secondary Crop: Maize</p>
+            <p>Land Size: 5 Acres</p>
+            <p>Farming Experience: 12 Years</p>
+            <p>Irrigation Type: Drip Irrigation</p>
+        </div>
+    </section>
+
+    <!-- Listed Crops -->
+    <section class="lc">
+        <h2>My Listed Crops</h2>
+        <div id="lc">
+            <div>
+                <h3>Wheat</h3>
+                <p>₹22/kg</p>
+                <p>Available</p>
+            </div>
+            <div>
+                <h3>Maize</h3>
+                <p>₹18/kg</p>
+                <p>Available</p>
+            </div>
+            <div>
+                <h3>Tomatoes</h3>
+                <p>₹25/kg</p>
+                <p>Out of Stock</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

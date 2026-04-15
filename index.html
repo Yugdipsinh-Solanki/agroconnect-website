@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Agroconnect</title>
+    <style>
+        nav{
+            background-color: forestgreen;
+        }
+        .Shero button{
+            padding: 12px 25px;
+            background-color: white;
+            color: rgb(2, 53, 2);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .Shero button:hover{
+            background-color: rgb(189, 236, 215);
+        }
+        .Sabout{
+            background-color: white;
+        }
+        .Sabout p{
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.7;
+        }
+        .Sservices{
+            background-color: #98FB98;
+        }
+        .Sservices h1{
+            margin-bottom: 40px;
+        }
+        .div1{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .div1 div{
+            background-color: white;
+            padding: 20px;
+            width: 250px;
+            border: 2px solid black;
+        }
+        #h3{
+            margin-bottom: 10px;
+        }
+        .Sfc{
+            background-color: rgb(196, 248, 196);
+        }
+        .div3{
+            display: inline-block;
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 220px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <h1>AgroConnect</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="market.html">Market</a>
+            <a href="schemes.html">Schemes</a>
+            <a href="profile.html">Profile</a>
+            <a href="register.html">Sign in</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="Shero">
+        <div>
+            <h1 style="font-size: 40px; margin-bottom: 20px;">Connecting Farmers to Markets</h1>
+            <p style="max-width: 700px; margin: 0 auto 30px auto;">A digital marketplace that 
+            helps farmers sell crops at fair prices and access important 
+            agricultural support services.</p>
+            <button onclick="window.location.href='register.html'">Connect with us</button>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="Sabout">
+        <div>
+            <h1 style="margin-bottom: 20px;">About AgroConnect</h1>
+            <p>AgroConnect is a platform designed to 
+            support farmers by connecting them 
+            directly with customers and local markets. 
+            It helps farmers get fair prices for their 
+            crops while providing important information 
+            such as market rates, government schemes, 
+            and agricultural guidance. Our goal is to 
+            strengthen rural agriculture through technology 
+            and awareness.</p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="Sservices">
+        <h1>Services</h1>
+        <div class="div1">
+            <div>
+                <h3 id="h3">Sell Crops</h3>
+                <p>Farmers can list their harvested crops and 
+                reach nearby buyers without middlemen.</p>
+            </div>
+            <div>
+                <h3 id="h3">Check MArket Prices</h3>
+                <p>View daily crop price ranges from different 
+                markets to make better selling decisions.</p>
+            </div>
+            <div>
+                <h3 id="h3">Government Schemes</h3>
+                <p>Learn about subsidies, insurance programs, 
+                and agricultural support initiatives.</p>
+            </div>
+            <div>
+                <h3 id="h3">Farmer Support</h3>
+                <p>Access guidance and resources to improve 
+                farming techniques and productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Crops -->
+     <section class="Sfc">
+        <h1 style="margin-bottom: 40px;">Featured Crops</h1>
+        <div class="div3">
+            <h3>Wheat</h3>
+            <p>Harvest Season: March-April</p>
+        </div>
+        <div class="div3">
+            <h3>Rice</h3>
+            <p>Harvest Season: October-November</p>
+        </div>
+        <div class="div3">
+            <h3>Maize</h3>
+            <p>Harvest Season: June-July</p>
+        </div>
+        <div class="div3">
+            <h3>Fresh Vegetables</h3>
+            <p>Available Throughout the Year</p>
+        </div>
+     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>AgroConnect is an agriculture support 
+            platform helping farmers connect with markets, 
+            access schemes, and stay informed about crop 
+            prices.</p>
+        </div>
+        <h2>Contact Us</h2>
+        <div>
+            <p>+91 99999 99999</p>
+            <p>support@agroconnect.in</p>
+            <p>Vadodara, Gujarat, India</p>
+        </div>
+        <div>
+            <p style="background-color: black;">&copy; AgroConnect - All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>

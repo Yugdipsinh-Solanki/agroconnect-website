@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: ivory;
+    color: black;
+}
+header{
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.Shero, .banner {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+section {
+    padding: 60px 40px;
+    text-align: center;
+}
+footer {
+    background-color: olive;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h2 {
+    margin: 20px 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}

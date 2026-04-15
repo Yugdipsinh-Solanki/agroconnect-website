@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marketplace</title>
+    <style>
+        .Shero p{
+            margin-top: 15px;
+        }
+        .Smark{
+            background-color: rgb(227, 251, 227);
+        }
+        .Mcard{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .Mcard div{
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .Mcard h4{
+            margin-bottom: 10px;
+        }
+        .Mcard p{
+            margin: 5px 0;
+        }
+        .Mcard button{
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: rgb(47, 141, 47);
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .Mcard button:hover{
+            background-color: rgb(30, 96, 30);
+        }
+        .Smp{
+            background-color: rgb(174, 248, 174);
+        }
+        table{
+            width: 90%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td{
+            padding: 12px;
+            border: 1px solid lightgray;
+        }
+        th{
+            background-color: rgb(47, 141, 47);
+            color: white;
+        }
+        #tr{
+            background-color: rgb(232, 231, 231);
+        }
+        tr:hover,#tr:hover{
+            background-color: rgb(166, 237, 198);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>AgroConnect</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="market.html">Market</a>
+            <a href="schemes.html">Schemes</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <!-- Banner (Hero) -->
+    <section class="Shero">
+        <h1>Crop Marketplace & Price Information</h1>
+        <div>
+            <p>Explore available crops from farmers and check 
+            current market price ranges.</p>
+        </div>
+    </section>
+
+     <!-- Marketplace -->
+    <section class="Smark">
+        <h3>Available Crops</h3>
+        <div class="Mcard">
+            <div>
+                <h4>Wheat</h4>
+                <p>₹22/kg</p>
+                <p>Ramesh Patel</p>
+                <p>Vadodara</p>
+                <button>View Details</button> 
+            </div>
+            <div>
+                <h4>Rice</h4>
+                <p>₹30/kg</p>
+                <p>Suresh Kumar</p>
+                <p>Anand</p>
+                <button>View Details</button>
+            </div>
+            <div>
+                <h4>Maize</h4>
+                <p>₹18/kg</p>
+                <p>Mahesh Singh</p>
+                <p>Rajkot</p>
+                <button>View Details</button>
+            </div>
+            <div>
+                <h4>Fresh Tomatoes</h4>
+                <p>₹25/kg</p>
+                <p>Amit Shah</p>
+                <p>Surat</p>
+                <button>View Details</button>
+            </div>
+            <div>
+                <h4>Potatoes</h4>
+                <p>₹20/kg</p>
+                <p>Deepak Verma</p>
+                <p>Bharuch</p>
+                <button>View Details</button>
+            </div>
+            <div>
+                <h4>Green Chilies</h4>
+                <p>₹35/kg</p>
+                <p>Kiran Desai</p>
+                <p>Mehsana</p>
+                <button>View Details</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Market Price -->
+    <section class="Smp">
+        <h3>Current Market Price Range</h3>
+        <div class="tdiv">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Crop</th>
+                        <th>Minimum Price</th>
+                        <th>Maximum Price</th>
+                        <th>Market</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="tr">
+                        <td>Wheat</td>
+                        <td>₹20/kg</td>
+                        <td>₹24/kg</td>
+                        <td>Vadodara</td>
+                    </tr>
+                    <tr>
+                        <td>Rice</td>
+                        <td>₹28/kg</td>
+                        <td>₹32/kg</td>
+                        <td>Anand</td>
+                    </tr>
+                    <tr id="tr">
+                        <td>Maize</td>
+                        <td>₹16/kg</td>
+                        <td>₹19/kg</td>
+                        <td>Rajkot</td>
+                    </tr>
+                    <tr>
+                        <td>Tomatoes</td>
+                        <td>₹22/kg</td>
+                        <td>₹27/kg</td>
+                        <td>Surat</td>
+                    </tr>
+                    <tr id="tr">
+                        <td>Potatoes</td>
+                        <td>₹18/kg</td>
+                        <td>₹23/kg</td>
+                        <td>Bharuch</td>
+                    </tr>
+                    <tr>
+                        <td>Green Chilies</td>
+                        <td>₹30/kg</td>
+                        <td>₹38/kg</td>
+                        <td>Mehsana</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>AgroConnect is an agriculture support 
+            platform helping farmers connect with markets, 
+            access schemes, and stay informed about crop 
+            prices.</p>
+        </div>
+        <h2>Contact Us</h2>
+        <div>
+            <p>+91 99999 99999</p>
+            <p>support@agroconnect.in</p>
+            <p>Vadodara, Gujarat, India</p>
+        </div>
+        <p style="background-color: black;">&copy; AgroConnect - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
